@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Formations() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Mes Formations</h1>
+      <h1 className={styles.title}>Mon Parcours</h1>
       <p className={styles.description}>
-        Découvrez les parcours diplômants d&apos;OpenClassrooms
+        Découvrez mon parcours
       </p>
 
       <div className={styles.grid}>
@@ -35,7 +35,6 @@ export default function Formations() {
                 <span key={index}>{tag}</span>
               ))}
             </div>
-            <span className={styles.viewMore}>Voir la formation →</span>
           </Link>
         ))}
       </div>

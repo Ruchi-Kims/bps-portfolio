@@ -5,17 +5,17 @@ import Tag from "@/components/Tag/Tag";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Mes Projets | Portfolio",
+  title: "Mes Expériences | Portfolio",
   description:
-    "Découvrez mes projets de développement web : applications React, sites Next.js et plus encore.",
+    "Découvrez mes expériences",
 };
 
 export default function Projects() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Mes Projets</h1>
+      <h1 className={styles.title}>Mes Expériences Professionnelles</h1>
       <p className={styles.description}>
-        Découvrez les projets sur lesquels j&apos;ai travaillé
+        Découvrez mes expériences professionnelles. 
       </p>
 
       <div className={styles.grid}>
@@ -45,7 +45,7 @@ export default function Projects() {
                   </Tag>
                 ))}
               </div>
-              <span className={styles.viewMore}>Voir le projet →</span>
+              <span className={styles.viewMore}>Voir plus →</span>
             </div>
           </Link>
         ))}

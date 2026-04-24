@@ -9,12 +9,12 @@ export default function About() {
         <div className={styles.bio}>
           <h2>Qui suis-je ?</h2>
           <p>
-            Développeur web passionné avec 3 ans d&apos;expérience dans la
-            création d&apos;applications modernes et performantes. Spécialisé
-            dans l&apos;écosystème React et Next.js.
+            Expert en conception électrique et thermique, j'allie rigueur d'étude et maîtrise du dessin projeteur.
+             Avec 3 ans d'expérience en intégration technique, j'interviens sur les courants forts (CFO),
+              les courants faibles (CFA) et la climatisation.
           </p>
           <p>
-            J&apos;aime transformer des idées en produits concrets qui résolvent
+            J&apos;aime transformer des idées en plans concrets qui répondent
             de vrais problèmes utilisateurs.
           </p>
         </div>
@@ -23,32 +23,32 @@ export default function About() {
           <h2>Compétences</h2>
           <div className={styles.skillGrid}>
             <div className={styles.skillCategory}>
-              <h3>Frontend</h3>
+              <h3>Electricités</h3>
               <ul>
-                <li>React & Next.js</li>
-                <li>JavaScript ES6+</li>
-                <li>HTML5 & CSS3</li>
-                <li>Responsive Design</li>
+                <li>Installation électrique</li>
+                <li>Dépannage électrique</li>
+                <li>Electricité solaire</li>
+                <li>Maintenance électrique</li>
               </ul>
             </div>
 
             <div className={styles.skillCategory}>
-              <h3>Backend</h3>
+              <h3>Divers</h3>
               <ul>
-                <li>Node.js & Express</li>
-                <li>API REST</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
+                <li>Conception assistée par l'ordinateur CAO</li>
+                <li>Schemas de cablage</li>
+                <li>Conception technique</li>
+                <li>Dimensionnement</li>
               </ul>
             </div>
 
             <div className={styles.skillCategory}>
-              <h3>Outils</h3>
+              <h3>Logiciels</h3>
               <ul>
-                <li>Git & GitHub</li>
-                <li>VS Code</li>
-                <li>Figma</li>
-                <li>Postman</li>
+                <li>Autocad</li>
+                <li>Revit</li>
+                <li>Xlpro</li>
+                <li>Dialux</li>
               </ul>
             </div>
           </div>

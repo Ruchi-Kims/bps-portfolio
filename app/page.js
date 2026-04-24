@@ -2,11 +2,11 @@ import styles from "./page.module.css"
 import Tag from "../components/Tag/Tag"
 
 const technologies = [
-  "React",
-  "Next.js",
-  "Node.js",
-  "TypeScript",
-  "Tailwind CSS",
+  "Caneco",
+  "Dialux",
+  "Ecodial",
+  "Autocad",
+  "Revit",
 ]
 
 export default function Home() {
@@ -14,20 +14,22 @@ export default function Home() {
     <div className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
-          Bonjour, je suis <span className={styles.highlight}>John Doe</span>
+          Bonjour, je suis <span className={styles.highlight}>Précieux BITOUKOU</span>
         </h1>
         <p className={styles.heroSubtitle}>
-          Développeur Web Full-Stack
+          Dessinateur projeteur électricité | Chargé d’études en électricité & Climatisation
         </p>
         <p className={styles.heroDescription}>
-          Je crée des applications web modernes, performantes et accessibles
-          avec React, Next.js et Node.js.
+          Je conçois les infrastructures techniques des bâtiments de demain. 
+          Spécialisé en électricité (CFO/CFA) et climatisation, 
+          j'assure la synergie entre puissance électrique (MT/BT)
+           et confort thermique pour des projets tertiaires et industriels maîtrisés.
         </p>
         <div className={styles.heroButtons}>
-          <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
-            Voir mes projets
+          <a href="/projets" className={`${styles.btn} ${styles.btnPrimary}`}>
+            Voir mes expériences
           </a>
-          <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+          <a href="/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
             Me contacter
           </a>
         </div>
